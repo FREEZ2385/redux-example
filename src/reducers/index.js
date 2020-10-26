@@ -1,10 +1,10 @@
 import { ADD, SUBTRACT, SETZERO } from "../actions";
 
-const initialState = {
+const initState = {
     value: 0
 };
 
-const counterReducer = (state = initialState, action) => {
+const counterReducer = (state = initState, action) => {
     switch(action.type) {
         case ADD: {
             return {
