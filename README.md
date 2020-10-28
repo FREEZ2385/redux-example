@@ -69,4 +69,14 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
+---
+
+# About Test
+
+- reference
+
 [test site](https://tech.zeals.co.jp/entry/2019/09/30/144410)
+
+## Need Library
+
+`jest, babel-jest, @babel/core, @babel/node, @babel/preset-env`

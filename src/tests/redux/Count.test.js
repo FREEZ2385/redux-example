@@ -4,7 +4,7 @@ import { counterReducer } from "../../reducers";
 
 describe('counter', () => {
     describe('actions', () => {
-      it('should create actions only', () => {
+      it('actions only', () => {
         const expectedActions =[
           { type: ADD },
           { type: SUBTRACT },
@@ -15,7 +15,7 @@ describe('counter', () => {
         ];
         expect(actions).toEqual(expectedActions);
       });
-      it('should create actions and reducer', () => {
+      it('actions and reducer', () => {
         const dummyState = {
           value: 9
         }
