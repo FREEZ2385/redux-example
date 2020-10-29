@@ -22,7 +22,7 @@ describe('counter', () => {
         const expectedReducers ={
           value: 0
         };
-        expect(counterReducer(dummyState, add())).toEqual(expectedReducers);
+        expect(counterReducer(add(), dummyState)).toEqual(expectedReducers);
       });
     });
   });

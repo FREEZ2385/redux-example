@@ -4,7 +4,7 @@ export const initState = {
     value: 0
 };
 
-export const counterReducer = (state = initState, action) => {
+export const counterReducer = (action, state = initState) => {
     switch(action.type) {
         case ADD: {
             return {

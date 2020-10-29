@@ -77,6 +77,8 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 [test site](https://tech.zeals.co.jp/entry/2019/09/30/144410)
 
+[test site2](https://blog.learningdollars.com/2020/04/09/how-to-test-asynchronous-redux-actions-using-jest/)
+
 ## Need Library
 
 `jest, babel-jest, @babel/core, @babel/node, @babel/preset-env`
